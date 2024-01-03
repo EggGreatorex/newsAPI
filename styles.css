@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
+body{
+  display: flex;
+  box-sizing: border-box;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 500;
+  font-size: 5vh;
+  background: linear-gradient(to left, #007acc 50%, #141f2a 50%);
+  align-items: center;
+  justify-content: center;
+  margin: 11vh;
+  caret-color: transparent;
+}
+
+.container{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.container h1{
+  color: white;
+}
+
+.container h3{
+  color: white;
+  margin-bottom: 10vh;
+}
+
+.article-container{
+  color: white;
+  font-size: 14px;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  background-color: #182632;
+  border: 1rem solid #8494a7;
+  box-shadow: 2rem;
+  border-radius: 20px;
+  width: 60vh;
+  height: 40vh;
+  user-select: none;
+  margin-bottom: 5vh;
+}
+
+.article-container p{
+  font-size: 15px;
+}
+
+.article-container a{
+  font-size: 15px;
+}
+
+.article-container h2{
+  height: 1vh;
+  color: rgb(181, 207, 253);
+  margin-bottom: 5vh;
+}
+
+
+.upButton{
+  position: flex;
+  position: fixed;
+  top: 90%;
+  left: 92%;
+  width: 5vh;
+  height: 7vh;
+  color: white;
+  background-color: #182632;
+  border: 2px solid #8494a7;
+  border-radius: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+
+
+
+
+/*  FOR SMALLER SCREENS */
+
+@media (max-width: 480px) {
+
+  .article-container{
+    width: 35vh;
+    font-size: 0.5rem;
+  }
+
+  .article-container p{
+    font-size: 0.5rem;
+    height: 1px;
+  }
+
+  .container h1{
+    font-size: 3rem;
+  }
+
+  .container h3{
+    font-size: 2rem;
+  }
+
+  .article-container a{
+    font-size: 0.6rem;
+  }
+
+  .article-container h2{
+    margin-bottom: 5vh;
+  }
+
+}
+
+@media (max-width: 350px) {
+
+  .article-container{
+    width: 40vh;
+    font-size: 0.4rem;
+  }
+
+  .article-container p{
+    font-size: 0.45rem;
+  }
+
+  .article-container a{
+    font-size: 0.6rem;
+  }
+
+  .article-container h2{
+    margin-bottom: 6vh;
+  }
+}
