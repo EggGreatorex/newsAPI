@@ -1,5 +1,4 @@
 
-document.addEventListener('DOMContentLoaded',fetchAPi)
 
 
 
@@ -57,3 +56,6 @@ function displayNews(articles) {
 function scrollToTop(){
   window.scrollTo({ top: 0, behavior: "smooth" });;
 }
+
+
+fetchAPi();
